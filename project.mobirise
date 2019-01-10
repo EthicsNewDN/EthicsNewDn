@@ -583,11 +583,11 @@
             "paddingTop": "0",
             "paddingBottom": 0,
             "sound": "https://soundcloud.com/nimeir-folkrist/sets/ethicsnewdn",
-            "autoplay": true,
+            "autoplay": false,
             "fullWidth": false,
             "bgColor": "#0f7699"
           },
-          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F682179810&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F682179810&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
           "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F682179810",
           "alias": "soundcloud",
           "_tags": [
