@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "EthicsNewDn",
-    "currentPage": "page2.html",
+    "currentPage": "page3.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.10",
     "siteFonts": [],
-    "uniqCompNum": 15,
+    "uniqCompNum": 17,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png"
   },
@@ -602,7 +602,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Page 1",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1056,7 +1056,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Page 2",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1503,6 +1503,460 @@
           "_once": false,
           "_params": {},
           "_anchor": "header2-e"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "meta_descr": "Site Builder Description",
+        "title": "Page 3",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<link rel=\"stylesheet\" href=\"style.less\">\n<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Логотип\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Размер\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Бренд\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Пункты меню\" name=\"showItems\">\n        <input type=\"color\" title=\"Выбрать цвет\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Липкое меню\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Гамбургер-меню\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Прозрачное меню\" name=\"transparent\">\n        <input type=\"color\" title=\"Цвет гамбургера\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"menuBgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://ethicsnewdn.github.io/EthicsNewDn/\">\n                         <img src=\"@PROJECT_PATH@/assets/images/ethics1-122x129.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-primary\" data-app-selector=\".navbar-caption\" href=\"https://ethicsnewdn.github.io/EthicsNewDn/\" data-app-placeholder=\"Введите Текст\">\n                        Ethics</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        <span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>\n                        Сервис\n                    </a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Введите Текст\">\n                        <span class=\"mbri-search mbr-iconfont mbr-iconfont-btn\"></span>\n                        О нас\n                    </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Попробуйте прямо сейчас!\n                </a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "reAksXubVS",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-f"
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "H1": {
+              "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#232323",
+              "text-align": "left"
+            }
+          },
+          "_name": "header2",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/jumbotron.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#f9f295\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#767676\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><br><span style=\"font-weight: normal;\">Словарь MMORPG</span></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Красивые мобильные сайты\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">АФК (AFK, Away from Keyboard) - Дословно означает «отошел от клавиатуры» \n<br>Адекват – хороший, приятный в общении игрок. \n<br>Акк, аккаунт – учетная запись в базе данных персонажей; то, что вы регистрировали на официальном сайте игры, логин и пароль от сайта и игры. \n<br>Ап – достижение чего-то; обычно,новый уровень. \n<br>\n<br>Бафф (Buff) - Заклинание, увеличивающее параметры персонажа (увеличение атаки, снижение урона и т.д.. Бывает нескольких видов: только на себя, на себя и на членов группы, пассивный на себя. \n<br>Баффер (Buffer) - Персонаж, который может накладывать баффы \n<br>Бижа - бижутерия (кольца, серьги, ожерелье) \n<br>Билд (Build) - Схема распределения очков по навыкам, заточка персонажа под определенный стиль игры \n<br>Бинд, биндить (Bind) - привязывать скиллы к кнопкам панели \n<br>Босс (Boss) - Главный моб в конце данжа, которого труднее всего убить \n<br>Буст, бустить (Boost) - Изменения, внесенные обновлением игры, усиливающие что-либо. \n<br>Бурст - Часто встречается среди игроков ПвЕ-режима, обычно означает быстрое вливание дамага на босса (под всеми бафами, откатами, ультами и тд) \n<br>Баг – системная ошибка на программном уровне. \n<br>Багоюз – использование багов игры в корыстных целях. Карается баном. \n<br>Багоюзер- Игрок,использующий баги,текстуры в свое удовольствие. \n<br>Бан, баня – насильное отлучение игрока от игры администратором сервера за те или иные грехи: грубость, ботоводство, использование читов, хаков, багов, покупку внутриигровых ценностей за реальные деньги и т.п. \n<br>\n<br>Вайп (Wipe) - ситуация в инсте, когда погибает вся группа \n<br>Випон, пуха (Weapon) - Оружие, разделяется на основное (Main) и второстепенное (Secondary) \n<br>ВИТ (VIT, Vitality) - Выживаемость, живучесть - один из основных статов, не развивая который вы будете умирать с 1 удара. \n<br>\n<br>Ги, гильда (Guild) - Гильдия \n<br>ГЛ (GL, Guild Leader) - Гильдлидер, глава гильдии \n<br>ГМ (GM, Game Master) - Человек, призванный следить за игрой и помогать игрокам в технических вопросах \n<br>ГДН - логово зеленого дракона \n<br>Гайд– руководство, содержащее подробную информацию о чем-то, или инструкцию к выполнению, применению чего-то. \n<br>Гамать, погамать – играть. Постоянное желание зaдрота. Нередко вытесняет все другие желания: есть, пить, размножаться, мыться и ходить в туалет. \n<br>Грац, гц – универсальное поздравление с любым достижением, будь то получение уровня, победа в чем-либо. \n<br>Глюк – графический эффект действия бага. Различные потемнения, радужные полосы, дефекты окраски, мельтешащие полигоны и др. \n<br>\n<br>ДД ( DD, Damage Dealer) - Персонаж, наносящий большое количество урона \n<br>Дебафф (Debuff) - Заклинание используемое как бафф, но направленное на ослабление противника, ухудшающее базовые характеристики на определенное время. \n<br>Дамаг, ДМГ - Damage(повреждение) - урон \n<br>Данж (Dungeon) - \"подземелье\", локация с мобами \n<br>Диз, дизенчант – разборка шмота в дизассемблере с целью получения камней \n<br>ДПС (DPS, Damage Per Second) - Урон в секунду \n<br>Дроп (Drop) - Предметы, полученные с игрового объекта (с тела монстра, из сундука). За ценными вещами порой долго ходят к одному и тому же боссу, в надежде, что в этот раз выпадет/дропнется именно то, что нужно \n<br>ДЕФ (Defense) - защита \n<br>ДКУ/ джейд (Dragon Jade)- Драконий Камень Усиления \n<br>Донат– вложение реальных денег в игру, покупка/продажа игровых вещей. \n<br>\n<br>Данж – отдельная локация с мобами и боссами, с которых падает весьма ценный лут. Предназначена для прохождения более чем одним игроком.У нас основной данж - логово. \n<br>\n<br>ЗБТ - закрытое бета-тестирование \n<br>\n<br>Инвул (Invulnerability) - Момент неуязвимости персонажа в определенный момент анимации скилла \n<br>Имба (Imba, Imbalance) - Мегакрутой перс для своего левела \n<br>Инст (Inst, Instance) - \"подземелье\" для прохождения группой (рейдом) \n<br>ИНТ (INT, intellect) - интеллект, один из основных статов персонажа. Дает прирост магической атаки (для маг. классов) и маг. защиты. \n<br>\n<br>Кап (Cap) - максимальный уровень персонажа \n<br>Крафт (Craft) - Действия, производимые со снаряжением с целью его улучшения.<br><br>Кулдаун, кд (Сooldown) - время отката скилла \n<br>КП (Constant Party) - постоянная группа игроков, обычно собирают на рейды драконов \n<br>Китай - Китайский сервер ДН \n<br>Крит. Удар - Критический удар \n<br>\n<br>Ладдер (Ladder) - один из видов ПВП в Колизее, доступен только игрокам макс.лвл \n<br>Левел (Level) - уровень игрока/монстра \n<br>Левел-кап (Level-cap) - верхний предел уровня персонажа \n<br>Левел-ап (Level-up) - повышение уровня персонажа после накопления определенного количества опыта \n<br>Лут (Loot) - предметы, которые можно получить из игрового объекта (с тела монстра, из сундука) \n<br>Лужа - скилл у лоли, наступив на который вы получите ускорение бега. \n<br>\n<br>Манти (Manticore Nest) - Нест Мантикоры \n<br>Маунт (Mount)- ездовое животное, существенно повышает скорость передвижения, используется только в городах и нейтральных локациях \n<br>Мили, милишник (Melee) - Персонаж, наносящий много урона в ближнем бою \n<br>Мино (Minotaur's Nest) - Нест Минотавра \n<br>Моб (Mob) - неодушевленный игровой объект (животное, монстр) управляемый игрой, нередко враждебный к игроку. Мобов нужно уничтожать, чтобы получить опыт,дроп. \n<br>МП (MP, Mana Points) - единица маны \n<br>Масс,масса – нечто массовое, действующее на несколько целей. Например,масс скилл или масс пвп - противостояние большому количеству противников. \n<br>Меда - скилл у лф (когда он медитирует в воздухе) вся пати получает постоянный отхил+реген маны+50% защиты. Лучше стоять поблизости - радиус ограничен. \n<br>\n<br>Нерф, нерфить (Nerf) - Изменения, внесенные обновлением игры, ослабляющие что-либо \n<br>Нест (Nest) - Данж, на каждом уровне которого есть свой босс. На последнем уровне надо убить рейд-босса \n<br>НПС, НПЦ (NPC, Non-Player Character) - Мирный персонаж, управляемый не игроком \n<br>Нуб (Newbie, Noob) - новичек, который пока еще плохо играет. Часто употребляется как ругательное слово \n<br>Нексон (Nexon America) - Сервер Сев.Америки \n<br>\n<br>ОБТ - открытое бета-тестирование \n<br>ОЗ - очки здоровья \n<br>ОМ - очки маны \n<br>ОУ - очки умений \n<br>Откат - перезарядка чего-либо (откат скилла, откат логова) \n<br>\n<br>Пати (Party) - группа из нескольких персонажей, собранная для прохождения данжа (2,4,6,8,16) \n<br>ПВЕ (PvE, Player versus Environment - «игрок против окружения») - Стиль игры, подразумевающий сражение игрока с монстрами \n<br>ПВП (PvP, Player versus Player) - Игрок против игрока \n<br>Пет (Pet) - животина, которая бегает за тобой в данжах и собирает лут \n<br>Плита, плитка (Heraldry Plate) - Геральдическая плита, используемая в билде для усиления стат и скиллов \n<br>Профа,–1)профа в игре профилактика серверов;2)Профессия персонажа к примеру маг - профа - ведьма \n<br>\n<br>Рейд (Raid) - Группа игроков, собранная для прохождения сложных инстов \n<br>Рейд-босс (Raid Boss) - Последний и самый сложноубиваемый босс в нестах (Минотавр, Цербер, Мантикора, Морской дракон) \n<br>Рейндж, рейнджер (Range) - Персонаж, наносящий много урона в бою на расстоянии \n<br>Рес, ресаться (Res, Ressurect) - Возродить персонажа \n<br>Резист (Resistance) - Сопротивление какому либо урону \n<br>РК, рейдколл (RaidCall) - Прогоамма для голосового общения в ММО играх \n<br>РЛ, рейдлидер - глава рейда, ответственный за тактику, распределение трофеев и пр. \n<br>Ролл (Roll) - Участие в розыгрыше вещи в конце пати-рейда \n<br>РуОфф (Mail.ru) - Российский сервер \n<br>\n<br>СА, СуперАрмор (SuperArmor) - состояние персонажа, которое защищает его, позволяя ему атаковать пропуская урон. \n<br>Сет (Set) - Комплект предметов экипировки. Наличие нескольких вещей из сета, а тем более полный комплект, дает бонус к статам \n<br>СДН (SDN, Sea Dragon Nest) - Нест Морского дракона \n<br>Скилл (Skill) - Навык персонажа, позволяющий ему производить какое либо действие. Делятся на боевые (удары, заклинания, баффы, дебаффы) и мирные (фермерство, рыбалка, кухня) \n<br>Соги - согильдийцы, члены одной гильдии \n<br>СИА, СЕА (SEA) - Сервер ДН в Сингапуре \n<br>Софтбан, СБ (Softban) - Определенный свод правил и ограничений, который составили игроки для более честного пвп. \n<br>СП (SP, Skill Points) - Очки навыков (скиллов)<br><br>Стан (Stun) - оглушение, эффект, заставляющий персонажа бездействовать и не реагировать на действия игрока какое-то время \n<br>СТР, сила (STR, Strenght) - сила, один из основных параметров, влияет на физ атаку и физ деф. \n<br>Стэк (Stack) - Связка одинаковых предметов, занимающих вместе столько же пространства, сколько и единичный экземпляр \n<br>Статы– основные характеристики персонажей и предметов, влияющие на эффективность персонажа, например: сила, ловкость, интелект, выносливость. \n<br>Сейв - так называются скилы, с помощью которых вы можете спасти себе жизнь. Например шифт+w,a,s,d для уклонения в любую заданую сторону, или прыжок при подкидывании в воздух - позволяет выбратся из контроля врага. \n<br>\n<br>Талик (Talisman)- талисман \n<br>Танковать, танчить – принимать на себя основной удар монстра и удерживать его внимание на персонаже (танке), не допуская его переагривания на других членов группы. В ДНе 3 основных танка - паладин и одна из профессий стража и макина.\n<br>Таймстоп - скилл, остановка времени у заклинательниц \n<br>Танк (Tank) - роль игрока, подразумевающая сдерживание натиска монстров и принятие всего урона на себя \n<br>Твинк (Twink) – Не основной персонаж игрока \n<br>Твиконовод - игрок который любит качать,играть многими персонажами, находя в этом свою прелесть игры. \n<br>ТП - телепорт \n<br>ТС, ТС3, ТимСпик (TeamSpeak 3) - Прогоамма для голосового общения в ММО играх \n<br>\n<br>Ульта, ульт - Самый последний скилл у персонажей, выделен фиолетовым цветом. Открывается на 40 уровне при прокачке всей ветки скилов. \n<br>\n<br>ФД, допка (Final Damage) - дополнительный урон \n<br>Фарм, фармить, фарминг (farm: ферма) – продолжительное уничтожение монстров с целью добычи лута или с целью накопления \n<br>Флинч - состояние \"головокружения\". Когда вам сбивают СА но вы еще не упали, а стоите и шатаетесь. со сдедующим ударом вас могут уронить. \n<br>\n<br>Хаос (Chaos) - Хаос, спец. уровень данжа для фарма ресурсов. \n<br>Хилер (Healer) - Игрок, лечащий других игроков \n<br>ХП (HP, Health Points) - Единица здоровья персонажа \n<br>ХШ (холищилд) - святой щит, скилл у одной из веток приста, кастуеться на всю пати, восстанавливает разом 30% хп и постепенно восстанавливает хп от маг.атаки.\n<br>1хп - скилл у Епископа, дающий неуязвимость на 3 сек при падении здоровья на 1хп. Может реально спасти всю пати. \n<br>\n<br>ЧС - чёрный список \n<br>\n<br>Церб, пёсик (Cerberus Nest) - Нест Цербера \n<br>\n<br>Шифт - обозначает пассивный скилл уклонения (есть у всех классов в игре) \n<br>Шт (Шоутайм) Озарение, бафскилл у одной из веток амазонки, влияет на кд ее пассивных скилов. \n<br>\n<br>Эквип/Шмот - экипировка \n<br>Эвент, ивент (Event) - событие, проводимое админами (пвп турнир, глобальный квест и т.п) \n<br>Экспа (EXP, ХР, Experience) - Опыт \n<br>Энчант (Enhancement) - Улучшения в шмоте или оружии<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\">ПОДРОБНЕЕ</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">ДЕМО</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "reN3Ci4DpW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header2-g"
         }
       ]
     }
